@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# tianyu developing dependency
+dep/*
+## should provide tianyu developing dependency source file
+!dep/package.json

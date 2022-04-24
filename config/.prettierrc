@@ -1,0 +1,18 @@
+{
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "options": {
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false,
+        "bracketSpacing": true,
+        "bracketSameLine": false,
+        "insertPragma": true,
+        "endOfLine": "lf",
+        "proseWrap": "always",
+        "trailingComma": "all"
+      }
+    }
+  ]
+}
