@@ -1,0 +1,15 @@
+{
+    "configuration": {
+        "type": "dependency"
+    },
+    "package": {
+        "tianyu-native": {
+            "repo": {
+                "git": "git@github.com:aitianyu-cn/tianyu-native.git"
+            },
+            "sec": true,
+            "main": "native",
+            "rename": null
+        }
+    }
+}

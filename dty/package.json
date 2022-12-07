@@ -1,19 +1,24 @@
 {
-    "export": {
-        "name": "dev.tianyu.io.fs",
-        "dependency": [
-            {
-                "name": "dev.tianyu.io",
-                "external": true,
-                "repo": "git@github.com:aitianyu-cn/tianyu-native.git"
+    "configuration": {
+        "type": "project"
+    },
+    "package": {
+        "export": {
+            "name": "dev.tianyu.io.fs",
+            "dependency": [
+                {
+                    "name": "dev.tianyu.io",
+                    "external": true,
+                    "repo": "dependency:tianyu-native"
+                }
+            ]
+        },
+        "params": {
+            "version": {
+                "c++": "c++17",
+                "c": "c14"
             }
-        ]
-    },
-    "params": {
-        "version": {
-            "c++": "c++17",
-            "c": "c14"
-        }
-    },
-    "blacklist": {}
+        },
+        "blacklist": {}
+    }
 }
