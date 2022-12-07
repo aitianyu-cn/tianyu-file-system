@@ -35,3 +35,7 @@
 dep/*
 ## should provide tianyu developing dependency source file
 !dep/package.json
+
+# Node.js Tools for Visual Studio
+node_modules/
+package-lock.json

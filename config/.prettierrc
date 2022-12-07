@@ -1,6 +1,23 @@
 {
   "overrides": [
     {
+      "files": ["*.js"],
+      "options": {
+        "printWidth": 130,
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false,
+        "bracketSpacing": true,
+        "bracketSameLine": true,
+        "arrowParens": "always",
+        "insertPragma": true,
+        "endOfLine": "lf",
+        "proseWrap": "preserve",
+        "trailingComma": "all",
+        "requirePragma": true
+      }
+    },
+    {
       "files": ["*.json"],
       "options": {
         "tabWidth": 4,

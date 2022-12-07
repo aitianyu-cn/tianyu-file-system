@@ -1,0 +1,22 @@
+{
+    "dev": true,
+    "cmake": {
+        "version": "3.18",
+        "project": {
+            "name": "Tianyu Development library",
+            "version": "0.0.1"
+        },
+        "cpp": {
+            "standard": 17
+        },
+        "output": {
+            "bin": "bin",
+            "lib": "lib",
+            "header": "header"
+        }
+    },
+    "baseURL": "",
+    "output": "target",
+    "language": null,
+    "log": "full"
+}

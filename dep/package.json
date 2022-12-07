@@ -1,8 +1,0 @@
-{
-    "tianyu-native": {
-        "repo": "git@github.com:aitianyu-cn/tianyu-native.git",
-        "sec": true,
-        "main": "native",
-        "rename": null
-    }
-}
